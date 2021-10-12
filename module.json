@@ -1,0 +1,41 @@
+{
+    "name": "morky-waters",
+    "title": "Mörky Waters",
+    "description": "A seaside cave dungeon for Mörk Borg.",
+    "version": "1.0.0",
+    "author": "Ceph / fc85057",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "0.8.7",
+    "packs": [
+        {
+            "name": "morky-waters-creatures",
+            "label": "Mörky Waters Creatures",
+            "path": "./packs/morky-waters-creatures.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "morky-waters-scenes",
+            "label": "Mörky Waters Scenes",
+            "path": "./packs/morky-waters-scenes.db",
+            "entity": "Scene"
+        },
+        {
+            "name": "morky-waters-notes",
+            "label": "Mörky Waters Notes",
+            "path": "./packs/morky-waters-notes.db",
+            "entity": "JournalEntry"
+        }
+    ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+    "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+    ],
+    "manifest": "https://github.com/fc85057/morky-waters/module.json",
+    "download": ""
+  }

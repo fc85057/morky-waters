@@ -36,6 +36,7 @@
       "type": "module"
     }
     ],
-    "manifest": "https://github.com/fc85057/morky-waters/module.json",
-    "download": ""
+    "url": "https://github.com/fc85057/morky-waters",
+    "manifest": "https://github.com/fc85057/morky-waters/releases/latest/download/module.json",
+    "download": "https://github.com/fc85057/morky-waters/releases/latest/download/module.zip"
   }
